@@ -13,9 +13,9 @@ local uiManager = mjrequire "hammerstone/ui/uiManager"
 ### Using
 The uiManager relies on the concept of 'views'. A view is a place where UI can be put. For example, a `GameView` covers (almost) the whole screen and captures the mouse.
 
-#### Elements
+### Elements
 
-##### Action Elements
+#### Action Elements
 Action Elements are rendered beside the radial menu that appears when selecting an object in the world. To register an Action Element, call `registerActionElement` on the `uiManager` like this:
 ```lua
 local exampleActionElement = mjrequire "exampleMod/exampleActionElement"
@@ -47,7 +47,7 @@ end
 return exampleActionElement
 ```
 
-##### Game Elements
+#### Game Elements
 Game Elements are shown nearly fullscreen to the user. To register a Game Elemenet, call `registerGameElement` on the `uiManager` like this:
 ```lua
 local exampleGameElement = mjrequire "exampleMod/exampleGameElement"

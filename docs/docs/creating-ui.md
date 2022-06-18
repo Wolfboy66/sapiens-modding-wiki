@@ -1,6 +1,6 @@
 # Creating UI in Sapiens
 
-UI in Sapiens relies on a few different things. This page will somewhat just introduce the vocabulary, and show a quick example.
+UI in Sapiens relies on a few different things. This page will somewhat introduce the vocabulary, and show a quick example.
 
 ## Getting Started
 
